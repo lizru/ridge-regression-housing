@@ -19,3 +19,8 @@ The target variable is `price`, which is log-transformed for modeling.
 
 - `housing_model.ipynb`: Main notebook with EDA, model training, and evaluation
 - `figures/`: Folder with EDA & performance visualizations
+
+## Limitations of Baseline Model
+- No hyperparamter tuning, default Ridge settings used
+- May not generalize well due to small dataset size
+- Minimal feature engineering
